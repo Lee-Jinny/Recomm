@@ -1,0 +1,2586 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$8EMgo1SpQ20iJG2lTLt3C1$6RE9GzVFNXpKvALxramkVDSL6x37xaSG9mDO52RCLiY=",
+        "last_login": "2024-11-26T07:17:21.265Z",
+        "is_superuser": false,
+        "username": "nami",
+        "first_name": "",
+        "last_name": "",
+        "email": "email@email.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-26T06:25:31.272Z",
+        "nick_name": "namhee",
+        "security_question": "Q2",
+        "security_answer": "어이가없네 조태오 나쁜사람",
+        "profile_image": "profile2",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$3L7Dq8TK3sTaxrdtMReae5$cqrP7kIxVcWwufQ3NP8teA7WhV4pcNstnJZEWSY7ti0=",
+        "last_login": "2024-11-26T07:19:07.995Z",
+        "is_superuser": false,
+        "username": "jae",
+        "first_name": "",
+        "last_name": "",
+        "email": "email@email.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-26T06:26:44.327Z",
+        "nick_name": "jaeeun",
+        "security_question": "Q1",
+        "security_answer": "mystery mystery",
+        "profile_image": "profile4",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$OgiI9sIvLTSFWl07CMFAWW$HzTtkxGSOCR6RNcnNtgrrb7sMXqP5lIgGVoAZgHETt8=",
+        "last_login": "2024-11-26T06:50:32.760Z",
+        "is_superuser": false,
+        "username": "recommendation",
+        "first_name": "",
+        "last_name": "",
+        "email": "email@email.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-26T06:28:53.160Z",
+        "nick_name": "recomm",
+        "security_question": "Q3",
+        "security_answer": "타짜 비닐하우스",
+        "profile_image": "profile5",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "movie": 120,
+        "content": "이거 본 사람?",
+        "created_at": "2024-11-26T07:16:24.173Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "movie": 120,
+        "content": "나 아직 안 봤는데?",
+        "created_at": "2024-11-26T07:17:02.505Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "movie": 120,
+        "content": "스포 자제여..!",
+        "created_at": "2024-11-26T07:17:12.926Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "movie": 120,
+        "content": "아니 글쎄.. 티모시가..!",
+        "created_at": "2024-11-26T07:18:13.819Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "movie": 120,
+        "content": "선생님을....!!!",
+        "created_at": "2024-11-26T07:18:25.074Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "movie": 120,
+        "content": "자전거 타고...!",
+        "created_at": "2024-11-26T07:18:41.010Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "movie": 120,
+        "content": "여자친구랑...!!",
+        "created_at": "2024-11-26T07:18:45.532Z"
+    }
+},
+{
+    "model": "comments.comment",
+    "pk": 8,
+    "fields": {
+        "user": 2,
+        "movie": 120,
+        "content": "그만해!!!!!!!!!",
+        "created_at": "2024-11-26T07:19:39.900Z"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+        "tmdb_id": 447273,
+        "title": "백설공주",
+        "overview": "",
+        "poster_path": "/ufka9Dt9NsDwZfE9KehBtuAs1U2.jpg",
+        "genre": "가족, 판타지",
+        "pos_ott": null,
+        "actors": "레이첼 지글러, 갤 가돗, Andrew Burnap, Martin Klebba, Ansu Kabia",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+        "tmdb_id": 1335947,
+        "title": "Disney Channel Mitmachkino 2024",
+        "overview": "",
+        "poster_path": "/k7WEtMoRj3wYfK0MpVfHt01wEKG.jpg",
+        "genre": "애니메이션, 가족",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 60,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+        "tmdb_id": 1022789,
+        "title": "인사이드 아웃 2",
+        "overview": "13살이 된 라일리의 행복을 위해 매일 바쁘게 머릿속 감정 컨트롤 본부를 운영하는 ‘기쁨’, ‘슬픔’, ‘버럭’, ‘까칠’, ‘소심’. 그러던 어느 날, 낯선 감정인 ‘불안’, ‘당황’, ‘따분’, ‘부럽’이가 본부에 등장하고, 언제나 최악의 상황을 대비하며 제멋대로인 ‘불안’이와 기존 감정들은 계속 충돌한다. 결국 새로운 감정들에 의해 본부에서 쫓겨나게 된 기존 감정들은 다시 본부로 돌아가기 위해 위험천만한 모험을 시작하는데…",
+        "poster_path": "/x2BHx02jMbvpKjMvbf8XxJkYwHJ.jpg",
+        "genre": "애니메이션",
+        "pos_ott": null,
+        "actors": "에이미 폴러, 마야 호크, 켄싱턴 톨먼, 리자 라피라, 토니 헤일",
+        "runtime": 97,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+        "tmdb_id": 1307917,
+        "title": "태연의 겨울왕국 여행기",
+        "overview": "아시아의 디바, 태연이 홍콩 디즈니랜드의 겨울왕국 세상을 만났다. 그녀에게 영감을 주었던 세계 속으로 떠나보자.",
+        "poster_path": "/gbRT5qHyu7g3lEcnyKxE8k77Fyr.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "태연",
+        "runtime": 8,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+        "tmdb_id": 1270271,
+        "title": "Nunca fui a Disney",
+        "overview": "",
+        "poster_path": "/4d87QCGDg2IT3SYn9hUXqlUUvmL.jpg",
+        "genre": "",
+        "pos_ott": null,
+        "actors": "Lucía Martínez Lag, Alejandra Borges, Alma Flores, Francisco Antelo",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+        "tmdb_id": 1221257,
+        "title": "Disney 100: A Century of Dreams - A Special Edition of 20/20",
+        "overview": "",
+        "poster_path": "/tPEJK7pxe05oKenyHQTXE5UbkCN.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Josh Ackerman, Kristen Anderson-Lopez, 줄리 앤드류스, Jodi Benson, Kelley L. Carter",
+        "runtime": 78,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+        "tmdb_id": 1293361,
+        "title": "Tiovivo",
+        "overview": "",
+        "poster_path": "/kMGu2PWA7Go8oUpqUwdcywfEqgh.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Violeta Sarabia, Carlos Kraemer, Else Kraemer, Rolf Baeza Kraemer, Luis Pérez",
+        "runtime": 34,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+        "tmdb_id": 1153222,
+        "title": "레고 디즈니 프린세스: 캐슬 퀘스트",
+        "overview": "어느 날 갑자기 비밀의 성으로 소환된 티아나, 모아나, 백설공주, 라푼젤, 에리얼. 악당 개스톤이 모든 왕국을 차지하려는 사악한 계획을 꾸미고 있다는 사실을 알게 된다. 이를 막기 위해 힘을 합쳐 성 깊숙이 숨겨진 세 가지 과제를 풀어야 하는 다섯 공주. 그들의 용기와 지혜, 그리고 팀워크가 세상을 구할 수 있을까?",
+        "poster_path": "/pn47RH17IPhIvgtkKMkS0C0xTQZ.jpg",
+        "genre": "애니메이션",
+        "pos_ott": null,
+        "actors": "Jodi Benson, 아울리이 크러발리오, 맨디 무어, Anika Noni Rose, Katherine Von Till",
+        "runtime": 47,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+        "tmdb_id": 1113018,
+        "title": "디즈니 얽히고 엮인 그녀들: 라이브!",
+        "overview": "《얽히고 엮인 그녀들: 라이브!》를 경험하다! 순수 창작곡 '내가 가는 길', '날 설득해 봐'를 비롯해 1990년대 곡 '너의 사랑 없이 살아가는 것', 뮤지컬 《기묘한 금요일: 새로운 뮤지컬》 수록곡, '빨간 하이힐', '이렇게 사는 건'과 같은 당대 뮤지컬 히트곡을 선보인다.",
+        "poster_path": "/tE5crXt2IW37hvhIG7pQrvlOCNY.jpg",
+        "genre": "음악, TV 영화, 다큐멘터리",
+        "pos_ott": null,
+        "actors": "Carolina Domenech, José Giménez-Zapiola, Manuela Menéndez, Kevsho, Tatu Glikman",
+        "runtime": 68,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+        "tmdb_id": 1080330,
+        "title": "Walt's Disenchanted Kingdom",
+        "overview": "",
+        "poster_path": "/oLHEAitn5runHpAgvcbVnwFUpDV.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Ben Carson, Vivek Ramaswamy, Mercedes Schlapp",
+        "runtime": 50,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+        "tmdb_id": 941891,
+        "title": "Disneyland Paris : Les Secrets du château",
+        "overview": "",
+        "poster_path": "/p2q70Khzfq1J0uU2uYSVLbIOkPq.jpg",
+        "genre": "다큐멘터리, TV 영화",
+        "pos_ott": null,
+        "actors": "Valentin Markowski, Sébastien Roffat, Myryam Callas, Benjamin Charles, Tracy Eck",
+        "runtime": 0,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+        "tmdb_id": 935319,
+        "title": "Magic in the Mountains",
+        "overview": "",
+        "poster_path": "/fVOyaOkkapuZlS9OMRdgcwVDOI2.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Eddy Ancinas, Osvaldo Ancinas, David C. Antonucci, Bill Briner, Bev Anderson Brockway",
+        "runtime": 79,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+        "tmdb_id": 877188,
+        "title": "마블 스튜디오 2021 디즈니+ 데이 스페셜",
+        "overview": "",
+        "poster_path": "/miYHuW4HPsWEiChIGm2Esr2JSIt.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "크리스 헴스워스, 톰 히들스턴, 마크 러팔로, 엘리자베스 올슨, 폴 베타니",
+        "runtime": 14,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+        "tmdb_id": 775343,
+        "title": "Le Live de Noël",
+        "overview": "",
+        "poster_path": "/pJ6xEUx5w04s79GSZsbEVbJx7Fu.jpg",
+        "genre": "음악",
+        "pos_ott": null,
+        "actors": "Louane Emera, Julien Doré, Vianney, Jérémy Frérot, Dorian Lauduique",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+        "tmdb_id": 702920,
+        "title": "The Disney Family Singalong - Volume II",
+        "overview": "",
+        "poster_path": "/uOYIKG0RfK6iWGQQXXY2vEHA7gI.jpg",
+        "genre": "가족, 판타지, 음악",
+        "pos_ott": null,
+        "actors": "Ryan Seacrest, 크리스티나 아길레라, Lindsay Arnold, Alan Bersten, 사브리나 카펜터",
+        "runtime": 60,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+        "tmdb_id": 701513,
+        "title": "Bob Gurr: Turning Dreams into Reality",
+        "overview": "",
+        "poster_path": "/506mep04sSOKzGwYzxJXSrK8DE1.jpg",
+        "genre": "다큐멘터리, 역사",
+        "pos_ott": null,
+        "actors": "Bob Gurr, Glenn Austin, Christopher Crump, Joel Fritche, Bruce D. Hayes",
+        "runtime": 52,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+        "tmdb_id": 535273,
+        "title": "The Whimsical Imagineer",
+        "overview": "",
+        "poster_path": "/3fP8xffe4okOyS6gEJOQqo6DGot.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Rolly Crump, Bob Gurr",
+        "runtime": 29,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+        "tmdb_id": 348666,
+        "title": "Walt Disney Animation Studios Short Films Collection",
+        "overview": "",
+        "poster_path": "/gjiMaprucHUS2pzFmxjkiBOJxZq.jpg",
+        "genre": "애니메이션, 가족, 코미디, 드라마, 판타지",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 85,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+        "tmdb_id": 349083,
+        "title": "Disney",
+        "overview": "",
+        "poster_path": "/7zcoP7bWqag5km1jt01YNvlaDcb.jpg",
+        "genre": "코미디",
+        "pos_ott": null,
+        "actors": "Marta Larralde",
+        "runtime": 16,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+        "tmdb_id": 310937,
+        "title": "Noël à Disneyland : dans le secret du plus grand parc d'attraction d'Europe",
+        "overview": "",
+        "poster_path": "/zUR4p1LqVP0plRnEdsqxU1HGkrg.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Lorànt Deutsch",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 21,
+    "fields": {
+        "tmdb_id": 292985,
+        "title": "The Story of Frozen: Making a Disney Animated Classic",
+        "overview": "",
+        "poster_path": "/tGCTpTNwlk8WfHxgZiOipcUSbJd.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "이디나 멘젤, 크리스틴 벨, 제니퍼 리, 조시 게드, 월트 디즈니",
+        "runtime": 43,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 22,
+    "fields": {
+        "tmdb_id": 140823,
+        "title": "세이빙 MR.뱅크스",
+        "overview": "딸들이 어릴 적부터 좋아했던 명작 '메리 포핀스'를 영화화하겠다는 약속을 지키기 위해 원작자 P.L 트래버스 부인(엠마 톰슨)을 20년 동안 쫓아다닌 월트 디즈니(톰 행크스)는 그녀를 미국 월트 디즈니 社로 초대한다.  뮤지컬 영화로 만들겠다는 제작진과의 의견차와 영화화 작업을 통해 어릴 적 아버지(콜린 파렐)에 대한 기억이 자꾸만 떠올라 힘들어하는 트래버스 부인은 2주라는 짧은 시간 사이에 월트 디즈니와 뜻하지 않는 교감을 하게 되는데…",
+        "poster_path": "/t4fO0KvFnd2Wt9W07xk2ZqQIkFJ.jpg",
+        "genre": "코미디, 드라마, 역사",
+        "pos_ott": null,
+        "actors": "엠마 톰슨, 톰 행크스, 콜린 파렐, 폴 지아마티, 루스 윌슨",
+        "runtime": 125,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 23,
+    "fields": {
+        "tmdb_id": 184608,
+        "title": "세인트☆영맨",
+        "overview": "부다와 예수 그리스도가 하계에서 공동 생활을 하는 모습을 유머러스하게 묘사한 원작 만화를 애니메이션화한 작품.",
+        "poster_path": "/vjbwHgT4tvxBPYhrTa6ms8NDbIE.jpg",
+        "genre": "애니메이션, 코미디",
+        "pos_ott": null,
+        "actors": "호시노 겐, 모리야마 미라이, 日比愛子, 타치키 후미히코, くまいもとこ",
+        "runtime": 90,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 24,
+    "fields": {
+        "tmdb_id": 252700,
+        "title": "Bloomberg Inside: Pixar",
+        "overview": "",
+        "poster_path": "/brGihcAbzOxUyYtz2pCXxVPUJc3.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Doug Creutz, Robert A. Iger, David Joyce, 존 라세터, Kathy Mangum",
+        "runtime": 21,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 25,
+    "fields": {
+        "tmdb_id": 158801,
+        "title": "Disneyland et ses Secrets",
+        "overview": "",
+        "poster_path": "/71sfYjflvA1B0Mr6e4z3W5bH41V.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Mireille Dumas",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 26,
+    "fields": {
+        "tmdb_id": 488413,
+        "title": "Leave",
+        "overview": "",
+        "poster_path": "/kqCx7hfVDUkB9NHX4A3ANgqCwRB.jpg",
+        "genre": "드라마",
+        "pos_ott": null,
+        "actors": "Salomé Boustani, Kaveh Beyk, Sophie Malcolm",
+        "runtime": 12,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 27,
+    "fields": {
+        "tmdb_id": 492413,
+        "title": "The Big Sleaze",
+        "overview": "",
+        "poster_path": "/aXaewuWebll6hJKCIK5DXa6yb1q.jpg",
+        "genre": "코미디, 액션",
+        "pos_ott": null,
+        "actors": "Michael Fredianelli, Sabrina Machado, Robert Amstler, Michael Nosé, Henry Lee",
+        "runtime": 105,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 28,
+    "fields": {
+        "tmdb_id": 415043,
+        "title": "Disneyland Resort: Behind The Scenes",
+        "overview": "",
+        "poster_path": "/dOGdX5Jbfv2GB4dzGt6F2cQJtBX.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Alex Pels",
+        "runtime": 51,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 29,
+    "fields": {
+        "tmdb_id": 681545,
+        "title": "Real Snow White",
+        "overview": "",
+        "poster_path": "/vC902fe8DkDZejqAhYgfoo3MJ3.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 10,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 30,
+    "fields": {
+        "tmdb_id": 196748,
+        "title": "Disneyland: Secrets, Stories, & Magic",
+        "overview": "",
+        "poster_path": "/zFY9UI3m1tFIcHHDcQQMh53WOWd.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 81,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 31,
+    "fields": {
+        "tmdb_id": 15485,
+        "title": "디즈니 공주 이야기 : 꿈을 이루세요",
+        "overview": "",
+        "poster_path": "/beAvTAhMQpTRxmlgGgpfg9F2rc1.jpg",
+        "genre": "애니메이션, 가족, 판타지",
+        "pos_ott": null,
+        "actors": "Susanne Blakeslee, Erin Torpey, Corey Burton, Barbara Dirickson, 프랭크 웰커",
+        "runtime": 56,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 32,
+    "fields": {
+        "tmdb_id": 70774,
+        "title": "Il était une fois... Walt Disney: Aux sources de l'art des studios Disney",
+        "overview": "",
+        "poster_path": "/nNOh9RCBqAT916Fm0svl19Ue2jm.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "월트 디즈니",
+        "runtime": 45,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 33,
+    "fields": {
+        "tmdb_id": 324206,
+        "title": "Walt Disney Treasures - The Chronological Donald, Volume One",
+        "overview": "",
+        "poster_path": "/1JQzALMLdQXB1ZbqyzDUajSQM8w.jpg",
+        "genre": "애니메이션, 가족",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 275,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 34,
+    "fields": {
+        "tmdb_id": 878285,
+        "title": "Animagique",
+        "overview": "",
+        "poster_path": "/dwo8MAkGtzUlYKoqTKGVs5b8ibh.jpg",
+        "genre": "음악",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 35,
+    "fields": {
+        "tmdb_id": 46298,
+        "title": "Disney's Sing-Along Songs: Home On The Range",
+        "overview": "",
+        "poster_path": "/qq1G2N9AtY0GU1D8xVjuVlF36Tt.jpg",
+        "genre": "음악, 애니메이션",
+        "pos_ott": null,
+        "actors": "Roseanne Barr",
+        "runtime": 37,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 36,
+    "fields": {
+        "tmdb_id": 267583,
+        "title": "Disney Presents: Main Street Electrical Parade - Farewell Season",
+        "overview": "",
+        "poster_path": "/lRyfmbHKFcQxUeboRmJVIZBx6kF.jpg",
+        "genre": "다큐멘터리, 가족",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 25,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 37,
+    "fields": {
+        "tmdb_id": 33607,
+        "title": "I Killed My Lesbian Wife, Hung Her on a Meat Hook, and Now I Have a Three-Picture Deal at Disney",
+        "overview": "",
+        "poster_path": "/9O7vQ8Ifg0x1EmExWrmCLAo7PKi.jpg",
+        "genre": "코미디",
+        "pos_ott": null,
+        "actors": "Jay Lacopo, Karla Montana, Johanna McCloy, Robert Koch, Tommy Hinkley",
+        "runtime": 16,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 38,
+    "fields": {
+        "tmdb_id": 775907,
+        "title": "The Grand Opening of Walt Disney World",
+        "overview": "",
+        "poster_path": "/w7cpwCDCVyv82YcbPYYU8T34USI.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "줄리 앤드류스, Glen Campbell, Buddy Hackett, Jonathan Winters, Bob Hope",
+        "runtime": 90,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 39,
+    "fields": {
+        "tmdb_id": 1003598,
+        "title": "어벤져스: 시크릿 워즈",
+        "overview": "",
+        "poster_path": "/f0YBuh4hyiAheXhh4JnJWoKi9g5.jpg",
+        "genre": "SF",
+        "pos_ott": null,
+        "actors": "로버트 다우니 주니어, 페드로 파스칼, 바네사 커비, 에번 모스배크랙, 조셉 퀸",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 40,
+    "fields": {
+        "tmdb_id": 806704,
+        "title": "더 배트맨 - 파트 2",
+        "overview": "",
+        "poster_path": "/qwDWC2OzPw9zGc2lVCbjDrdaL6A.jpg",
+        "genre": "미스터리, 드라마, 범죄",
+        "pos_ott": null,
+        "actors": "로버트 패틴슨, 콜린 파렐, 제프리 라이트, 앤디 서키스",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 41,
+    "fields": {
+        "tmdb_id": 454639,
+        "title": "마스터즈 오브 더 유니버스",
+        "overview": "",
+        "poster_path": "/arSooSSFyjTfh9DU1jy8MnoxrCz.jpg",
+        "genre": "액션, 모험, 판타지",
+        "pos_ott": null,
+        "actors": "니콜라스 갈리친, 카밀라 멘데스, 앨리슨 브리, 이드리스 엘바",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 42,
+    "fields": {
+        "tmdb_id": 1003596,
+        "title": "어벤져스: 둠스데이",
+        "overview": "",
+        "poster_path": "/eO6OdA4RDRWeCVlDMcsoxWYFySD.jpg",
+        "genre": "SF",
+        "pos_ott": null,
+        "actors": "로버트 다우니 주니어, 페드로 파스칼, 바네사 커비, 에번 모스배크랙, 조셉 퀸",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 43,
+    "fields": {
+        "tmdb_id": 617126,
+        "title": "판타스틱 4: 퍼스트 스텝스",
+        "overview": "",
+        "poster_path": "/zOiVyH3hJ4e7rEUBLGuinhOonh1.jpg",
+        "genre": "SF, 액션, 모험",
+        "pos_ott": null,
+        "actors": "페드로 파스칼, 바네사 커비, 조셉 퀸, 에번 모스배크랙, 랄프 이네슨",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 44,
+    "fields": {
+        "tmdb_id": 1199937,
+        "title": "Xenobot",
+        "overview": "",
+        "poster_path": "/otPlq977eujwTfH2YIZEyrWfFsN.jpg",
+        "genre": "액션, 모험, SF, 가족",
+        "pos_ott": null,
+        "actors": "Cristian Gómez, Alejandro Gomez, Wills Canga, Angy Melgoza",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 45,
+    "fields": {
+        "tmdb_id": 1061474,
+        "title": "슈퍼맨",
+        "overview": "",
+        "poster_path": "/rpAG7cRLJtikG0pvOuaG91r3eav.jpg",
+        "genre": "SF, 액션",
+        "pos_ott": null,
+        "actors": "데이비드 코런스웻, 레이첼 브로스나한, 이사벨라 메르세드, Edi Gathegi, 네이선 필리언",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 46,
+    "fields": {
+        "tmdb_id": 1235336,
+        "title": "The Sensational Cat-Man",
+        "overview": "",
+        "poster_path": "/8SZXO4djqfK53hI4rX4ka2OaD4.jpg",
+        "genre": "애니메이션, 모험, 범죄",
+        "pos_ott": null,
+        "actors": "Gianni Matragrano, Austin McConnell, Abigail Turner, Lou Lambert",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 47,
+    "fields": {
+        "tmdb_id": 1362347,
+        "title": "Keytar Bear",
+        "overview": "",
+        "poster_path": "/qloMBGzGtFvyaaoGEmj30PkWi2w.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Keytar Bear, Abby Taylor",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 48,
+    "fields": {
+        "tmdb_id": 822119,
+        "title": "캡틴 아메리카: 브레이브 뉴 월드",
+        "overview": "새로운 캡틴 아메리카 샘 윌슨이 대통령이 된 로스 장군과 재회 후 전 세계를 붉게 장악하려는 적의 사악한 음모를 추격해 나가는 액션 블록버스터",
+        "poster_path": "/8IWHbfDUFwtHHFslBKFe0AttcZd.jpg",
+        "genre": "액션, SF",
+        "pos_ott": null,
+        "actors": "앤서니 매키, 대니 라미레즈, Carl Lumbly, 해리슨 포드, 팀 블레이크 넬슨",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 49,
+    "fields": {
+        "tmdb_id": 938180,
+        "title": "Iemanjá – Deusa do Oceano",
+        "overview": "",
+        "poster_path": "/ktHFiiVSeBWnMUNpCucdZeWeQB2.jpg",
+        "genre": "판타지",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 50,
+    "fields": {
+        "tmdb_id": 1218032,
+        "title": "Super-Charlie Begins",
+        "overview": "",
+        "poster_path": "/1OxOg4tS5Q5scarzGZcFizgYc9e.jpg",
+        "genre": "액션, 애니메이션, 코미디, 가족",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 80,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 51,
+    "fields": {
+        "tmdb_id": 1387029,
+        "title": "Northerner",
+        "overview": "",
+        "poster_path": "/mka33kVWt7diI4ppvIrKP9SH31j.jpg",
+        "genre": "",
+        "pos_ott": null,
+        "actors": "Justin Nurse, Brian Marler, Megan Jones",
+        "runtime": 13,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 52,
+    "fields": {
+        "tmdb_id": 1310672,
+        "title": "風都探偵 仮面ライダースカルの肖像",
+        "overview": "",
+        "poster_path": "/fZ5Rl7b8ZeFuVjXpsybswT8kbBg.jpg",
+        "genre": "애니메이션, 액션, 모험, 코미디, 드라마, 판타지, SF",
+        "pos_ott": null,
+        "actors": "츠다 켄지로, 호소야 요시마사, 우치야마 고키, 세키네 아키라, 코마츠 미카코",
+        "runtime": 82,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 53,
+    "fields": {
+        "tmdb_id": 1232744,
+        "title": "Spectre: Shadow Night",
+        "overview": "",
+        "poster_path": "/3UuozuBskZSKLApltMUkBBsPgir.jpg",
+        "genre": "액션, 범죄, 미스터리",
+        "pos_ott": null,
+        "actors": "Eli Jackson, Anthony Carbone, Paige Foley, Jackson Koman, Sancia Turner",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 54,
+    "fields": {
+        "tmdb_id": 1100998,
+        "title": "SuperKlaus",
+        "overview": "",
+        "poster_path": "/8LCaJujpsJuWnlhdFUVc0WGWSNq.jpg",
+        "genre": "애니메이션, 코미디, 가족",
+        "pos_ott": null,
+        "actors": "할랜드 윌리암스, Colm Feore, Millie Davis",
+        "runtime": 88,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 55,
+    "fields": {
+        "tmdb_id": 1377960,
+        "title": "王様戦隊キングオージャー キョウリュウジャー編 ディレクターズカット版",
+        "overview": "",
+        "poster_path": "/yAmaAmnknVWAv5hdFjiY7O3M7S1.jpg",
+        "genre": "액션, 모험, SF",
+        "pos_ott": null,
+        "actors": "Taisei Sakai, Aoto Watanabe, Erica Murakami, Yuzuki Hirakawa, 카쿠 소",
+        "runtime": 52,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 56,
+    "fields": {
+        "tmdb_id": 912649,
+        "title": "베놈: 라스트 댄스",
+        "overview": "환상의 케미스트리의 에디 브록과 그의 심비오트 베놈은 그들을 노리는 정체불명 존재의 추격을 피해 같이 도망을 다니게 된다. 한편 베놈의 창조자 널은 고향 행성에서부터 그들을 찾아내기 위해 지구를 침략하고 에디와 베놈은 그동안 겪어보지 못한 최악의 위기를 맞이하게 되는데…",
+        "poster_path": "/3flIDcZF3tnR7m5OU2h7lLPQwmr.jpg",
+        "genre": "SF, 액션, 모험",
+        "pos_ott": null,
+        "actors": "톰 하디, 추이텔 에지오포, 주노 템플, 클라크 바코, 리스 에반스",
+        "runtime": 109,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 57,
+    "fields": {
+        "tmdb_id": 1359227,
+        "title": "레고 마블 어벤져스: 미션 데몰리션",
+        "overview": "완전히 새로운 애니메이션 스페셜 ‘레고 마블: 미션 데몰리션’은 독창적인 매력이 확실한 유명 시리즈의 10번째 작품이다. 마블과 레고 그룹이 선보이는 이 최신 스페셜의 주인공은 히어로가 되고자 하는 젊은 슈퍼히어로 팬으로, 어벤져스의 세상을 파괴할 기회를 노리고 있는 강력한 새 악당을 우연한 계기로 해방시키고 만다.",
+        "poster_path": "/2gLpCJNao2AgHhCuuhwwlvL5hb1.jpg",
+        "genre": "애니메이션, 코미디, SF",
+        "pos_ott": null,
+        "actors": "Will Friedle, 케빈 스미스, David Kaye, John Stamos, Roger Craig Smith",
+        "runtime": 44,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 58,
+    "fields": {
+        "tmdb_id": 1198734,
+        "title": "Mara Pappa Superhero",
+        "overview": "",
+        "poster_path": "/ngNdDP8BTmRDNXfp7e07QDpoOXL.jpg",
+        "genre": "드라마",
+        "pos_ott": null,
+        "actors": "Abhinay Banker, Shraddha Dangar, Bhavya Sirohi, Revanta Sarabhai, Priyanka Raja",
+        "runtime": 120,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 59,
+    "fields": {
+        "tmdb_id": 1127192,
+        "title": "Avanzers: Italian Superheroes",
+        "overview": "",
+        "poster_path": "/hs9On8dP2sEq7PIZYqmBWB5QC1x.jpg",
+        "genre": "코미디, 판타지",
+        "pos_ott": null,
+        "actors": "Maurizio Mattioli, Ciro Villano, Francesca Ceci, Giancarlo del Diavolo, Davide Marotta",
+        "runtime": 130,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 60,
+    "fields": {
+        "tmdb_id": 1003580,
+        "title": "리전 오브 슈퍼 히어로즈",
+        "overview": "",
+        "poster_path": "/8M6bA5t2q5u1nWDTEIXuGDwvboW.jpg",
+        "genre": "애니메이션, 액션, SF",
+        "pos_ott": null,
+        "actors": "Meg Donnelly, Harry Shum Jr., Jensen Ackles, 기디언 애들론, 맷 보머",
+        "runtime": 84,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 61,
+    "fields": {
+        "tmdb_id": 746333,
+        "title": "슈퍼 후?",
+        "overview": "프랑스 박스오피스 2주 연속 1위 & 6주 연속 TOP10 기록!  끝이 보이지 않는 긴 무명 생활 끝에 운 좋게 히어로 무비 <배드맨>의 주인공 역에 캐스팅된 조금은 모자라지만 착한 배우 ‘세드릭’.  신나게 코스튬까지 맞추고 촬영장으로 향하던 중, ‘세드릭’은 갑작스러운 교통사고를 당하고 만다.  사고로 모든 기억을 잃은 ‘세드릭’은 수트를 입은 자기 모습을 보고는 진짜 슈퍼 히어로로 착각하게 되는데…  교통사고로 모든 기억을 잃은 무명 배우!  의식을 되찾았더니 슈퍼 히어로가 되어 있다?",
+        "poster_path": "/mSToZn1k31NCh6UOfQGPUnmDOyP.jpg",
+        "genre": "코미디, 액션, 가족",
+        "pos_ott": null,
+        "actors": "Philippe Lacheau, Julien Arruti, Tarek Boudali, Élodie Fontan, Alice Dufour",
+        "runtime": 82,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 62,
+    "fields": {
+        "tmdb_id": 641501,
+        "title": "나는 어떻게 슈퍼히어로가 되었는가",
+        "overview": "평범한 시민들과 슈퍼히어로가 공존하는 현재의 파리. 일반인에게 초능력을 부여하는 약물의 등장과 함께 사건이 줄을 잇자 두 경찰이 수사에 나선다. 무책임한 힘의 범람을 막아야 하기에",
+        "poster_path": "/bzr8OXoACGYrHVAh2MdMXUsMtiS.jpg",
+        "genre": "SF, 모험, 액션, 코미디, 스릴러",
+        "pos_ott": null,
+        "actors": "Pio Marmaï, Vimala Pons, Benoît Poelvoorde, Leïla Bekhti, 스완 아를로",
+        "runtime": 101,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 63,
+    "fields": {
+        "tmdb_id": 755568,
+        "title": "Superhero?",
+        "overview": "",
+        "poster_path": "/4Wz4aZFnVl3bR9lUo2C77adQjdl.jpg",
+        "genre": "",
+        "pos_ott": null,
+        "actors": "Andi Gudgeon, Chris Gordy, Rajiim A. Gross, David Moak, Adrian Gordy",
+        "runtime": 6,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 64,
+    "fields": {
+        "tmdb_id": 806509,
+        "title": "Superhero",
+        "overview": "",
+        "poster_path": "/vOqMxjCMADNZfzeS4GhNIyYtW5r.jpg",
+        "genre": "드라마, 판타지",
+        "pos_ott": null,
+        "actors": "Maria Dragus, Nico Randel, Jannik Schümann, Charlotte Woolfe, Etienne Halsdorf",
+        "runtime": 13,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 65,
+    "fields": {
+        "tmdb_id": 527511,
+        "title": "Bhavesh Joshi Superhero",
+        "overview": "",
+        "poster_path": "/mO8goYleGviURaVtljEkK2Ls3XO.jpg",
+        "genre": "액션, 드라마",
+        "pos_ott": null,
+        "actors": "Harshvardhan Kapoor, Priyanshu Painyuli, Dhritiman Chatterjee, Nishikant Kamat, Ashish Verma",
+        "runtime": 155,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 66,
+    "fields": {
+        "tmdb_id": 316298,
+        "title": "Garuda Superhero",
+        "overview": "",
+        "poster_path": "/aaBitqk6KjUS3Klk2v7PuSqLrff.jpg",
+        "genre": "SF, 액션",
+        "pos_ott": null,
+        "actors": "Rizal Idrus, Slamet Rahardjo, Agus Kuncoro, Robby Sugara, Piet Pagau",
+        "runtime": 85,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 67,
+    "fields": {
+        "tmdb_id": 350204,
+        "title": "Derrière le masque des super-héros",
+        "overview": "",
+        "poster_path": "/399UtGQwLHGWbvx7ao1kP4VA9h8.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "스탠 리, Adi Granov, Joann Sfar, Zep",
+        "runtime": 52,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 68,
+    "fields": {
+        "tmdb_id": 520349,
+        "title": "Qui sont les super-héros?",
+        "overview": "",
+        "poster_path": "/xXTlDcbrSiExf7QbFmQYfLijyO2.jpg",
+        "genre": "코미디",
+        "pos_ott": null,
+        "actors": "Oscar Le Potollec Fiorani, Emma Ninucci, Alban Lenoir, Eva Pardalis, Jean-François Eono",
+        "runtime": 22,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 69,
+    "fields": {
+        "tmdb_id": 86304,
+        "title": "All Superheroes Must Die",
+        "overview": "",
+        "poster_path": "/lt5hf1FtNEjEOHJpjeWO2YD3tNE.jpg",
+        "genre": "SF, 스릴러",
+        "pos_ott": null,
+        "actors": "Jason Trost, Lucas Till, James Remar, Sophie Merkley, Lee Valmassy",
+        "runtime": 78,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 70,
+    "fields": {
+        "tmdb_id": 91551,
+        "title": "데스 오브 어 슈퍼히어로",
+        "overview": "도날드는 다른 종류의 슈퍼히어로이다. 현실에서는 병약하지만 펜과 잉크로 만들어내는 암흑 세계의 천하무적 슈퍼히어로는 그의 또 다른 재능이다. 패배도 사랑도 하지 않는 도날드의 만화 속 히어로와는 달리 현실의 도날드는 완전히 정반대의 히어로일 뿐이다. 토마스 생스터와 앤디 서키스가 빚어내는 하모니가 감동을 선사한다.",
+        "poster_path": "/AmOfWnvFeH2Gn3qeQI8yBjKNqi6.jpg",
+        "genre": "드라마",
+        "pos_ott": null,
+        "actors": "앤디 서키스, 토머스 브로디생스터, Michael McElhatton, 샤론 호건, Aisling Loftus",
+        "runtime": 97,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 71,
+    "fields": {
+        "tmdb_id": 11918,
+        "title": "슈퍼히어로",
+        "overview": "학교에서 왕따인 릭은 어느날 유전자 조작을 한 잠자리에 물리게 되면서 엄청난 ‘슈퍼울트라 파워’를 지니게 된다. 손에 돋아난 돌기를 이용해 벽 짚고 브레이크 댄스를 추는가 하면, 트럭에 부딪혀도 트럭을 부셔버리는 초강력 맷집, 날아가는 총알도 잡아버리는 매트릭스 뺨치는 순발력 등 엄청난 힘을 갖게 되지만, 이런 슈퍼히어로에게도 단 하나의 약점이 있었으니, 바로 날지 못한다는 것! 주체할 수 없는 이 슈퍼울트라파워를 정의사회 구현에 쓰기로 한 릭은 직접 핸드메이드 한 쫄쫄이 스판덱스 의상을 갖춰 입고 스파이더맨과 조금(?) 비슷한 ‘슈퍼잠자리맨’ 이 되어, 늘 ‘택시를 타고’ 위험에 빠진 시민들을 구하러 다닌다. 히어로무비엔 늘 그렇듯 우리의 ‘슈퍼잠자리맨’에게도 영원한 숙적 ‘아워글래스’가 나타나 기상천외한 한판승부를 펼치게 되는데…",
+        "poster_path": "/car2v1NdO35KYs4pxkJ0ERYX27I.jpg",
+        "genre": "코미디, 액션, SF",
+        "pos_ott": null,
+        "actors": "Drake Bell, Sara Paxton, 크리스토퍼 맥도널드, 레슬리 닐슨, 케빈 하트",
+        "runtime": 82,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 72,
+    "fields": {
+        "tmdb_id": 228088,
+        "title": "De Superman à Spider-Man: L'aventure des super-héros",
+        "overview": "",
+        "poster_path": "/b6760qS8pEb3elWp4e7KPQsGliC.jpg",
+        "genre": "다큐멘터리, TV 영화, 애니메이션",
+        "pos_ott": null,
+        "actors": "Alex Ross, Bill Sienkiewicz, Carmine Infantino, Dave Gibbons, Harry Brod",
+        "runtime": 100,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 73,
+    "fields": {
+        "tmdb_id": 715847,
+        "title": "Superhero",
+        "overview": "",
+        "poster_path": "/6Fh0asfn4yrnDu3jPgehWP1o6v1.jpg",
+        "genre": "",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 10,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 74,
+    "fields": {
+        "tmdb_id": 1307003,
+        "title": "이상한 나라의 앨리스",
+        "overview": "화창한 오후에 가든 파티에서 앨리스는 부모님의 친구 루이스 캐럴이 흰 토끼로 변신하는 것을 보고 놀랐다. 그녀가 그를 따라 토끼 굴로 들어갔을 때 사건은 점점 더 이상해진다... 앨리스는 원더랜드를 여행하면서 수많은 이상한 생물을 만난다. 그녀는 타르트를 훔친 혐의로 도망치는 매력적인 하트의 네이브에게 푹 빠졌습니다. 혼란이 혼란에 더해진다. 그러자 앨리스는 깜짝 놀라 깨어납니다. 이 모든 것이 백일몽이었을까요?",
+        "poster_path": "/2D4MUWQokNFdvcoo0lGsUTZtaji.jpg",
+        "genre": "음악",
+        "pos_ott": null,
+        "actors": "Francesca Hayward, William Bracewell, James Hay, Steven McRae, Lauren Cuthbertson",
+        "runtime": 169,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 75,
+    "fields": {
+        "tmdb_id": 1188456,
+        "title": "이상한 집",
+        "overview": "아메미야는 오컬트를 전문으로 하는 인기 없는 유튜버입니다. 어느 날 매니저가 아메미야에게 홈 평면도를 가져다줍니다. 그의 매니저는 그 레이아웃이 평범한 홈 평면도처럼 보이지만 그 레이아웃에는 이해할 수 없는 점이 있다고 말합니다. 아메미야는 평면도를 주의 깊게 살펴보기 시작하고 건축가이자 미스터리의 팬인 쿠리하라가 그와 함께합니다. 그들은 집 뒤에 숨겨진 미스터리를 밝히기 위해 노력합니다. 그러던 중 유즈키가 아메미야에게 연락해 그가 유튜브 채널에 올린 집에 대해 뭔가 알고 있다고 말합니다. 그녀는 아메미야와 쿠리하라에 합류해 집의 미스터리를 공개하지만, 그녀에게도 비밀이 있는 것 같습니다.",
+        "poster_path": "/u2Qb0HKHxEQsBvCPRUU6PosN3FM.jpg",
+        "genre": "스릴러, 미스터리",
+        "pos_ott": null,
+        "actors": "間宮祥太朗, 사토 지로, 川栄 李奈, DJ松永, 長田成哉",
+        "runtime": 110,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 76,
+    "fields": {
+        "tmdb_id": 1028864,
+        "title": "도망자 - 카를로스 곤의 이상한 이야기",
+        "overview": "비즈니스 거물로 떠오른 후, 국제적으로 악명을 떨치며 추락하기까지. 카를로스 곤의 기이한 이야기를 탐구하는 범죄 실화 다큐멘터리.",
+        "poster_path": "/sjLWPQFMBzsPk9ZURWJ5X6fptLQ.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Carlos Ghosn, Louis Schweitzer, Nayla Beydoun, Clément Lacombe",
+        "runtime": 95,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 77,
+    "fields": {
+        "tmdb_id": 809717,
+        "title": "이상한 나라의 달빛요정",
+        "overview": "신비로운 땅, 달나라로 떠나는 마법 같은 여행이 시작된다! 사라진 아내와 자신의 한 쪽 팔을 찾기 위해 용감하고 동물을 사랑하는 인간을 찾는 딱정벌레. 그리고 그의 소원을 들어주기 위해 달나라 여행을 떠나는 ‘피터’와 ‘앤’. 하지만 달나라엔 우주 정복을 꿈꾸는 ‘문맨’이 있었고 결국 동생 ‘앤’이 납치를 당하게 되는데…",
+        "poster_path": "/milFHELd8wtv4PnxizMt06thfQQ.jpg",
+        "genre": "애니메이션, 모험, 코미디",
+        "pos_ott": null,
+        "actors": "Dirk Petrick, Roxana Samadi, Peter Simonischek, Tom Vogt, Raphael von Bargen",
+        "runtime": 81,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 78,
+    "fields": {
+        "tmdb_id": 511785,
+        "title": "이상한 나라의 앨릭스",
+        "overview": "여자친구와 첫날밤을 앞둔 10대 소년 앨릭스. 마음의 준비는 끝났고! 호텔도 잡았고! 그러나 계획에 차질이 생긴다. 앨릭스의 마음을 사로잡은, 그 남자 때문에.",
+        "poster_path": "/6OemqmvthXswt5KFmtXBCMMloJ4.jpg",
+        "genre": "코미디, 드라마",
+        "pos_ott": null,
+        "actors": "Daniel Doheny, Madeline Weinstein, Antonio Marziale, Daniel Zolghadri, 프레드 헤킨저",
+        "runtime": 99,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 79,
+    "fields": {
+        "tmdb_id": 283366,
+        "title": "미스 페레그린과 이상한 아이들의 집",
+        "overview": "할아버지의 죽음의 단서를 쫒던 제이크는 시간의 문을 통과해 놀라운 비밀과 마주한다. 시간을 조정하는 능력을 가진 미스 페레그린과 그녀의 보호아래 무한 반복되는 하루를 사는 특별한 능력의 아이들, 그리고 그들을 사냥하는 보이지 않는 무서운 적 할로게스트. 미스 페레그린과 제이크를 비롯한 아이들은 살아남기 위해 할로게스트에 맞서야 한다. 시간과 공간을 넘나들며 펼쳐지는 이들의 대결이 팀 버튼의 마법같은 상상력으로 펼쳐진다.",
+        "poster_path": "/j3VfU751qbvzxyYMfHL2vigqdYf.jpg",
+        "genre": "판타지, 모험",
+        "pos_ott": null,
+        "actors": "에바 그린, 아사 버터필드, 사무엘 L. 잭슨, 주디 덴치, 루퍼트 에버렛",
+        "runtime": 127,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 80,
+    "fields": {
+        "tmdb_id": 297021,
+        "title": "최근, 여동생의 상태가 조금 이상한 것 같다만",
+        "overview": "서로의 부모님의 결혼으로 미츠키와 유야는 의남매가 된다. 미츠키는 그녀의 새 가족을 어려워하고, 유야는 그런 미츠키에게 어떻게 다가가야 할지 몰라 곤란해 한다. 어느 날 미츠키는 유야를 좋아하고 유야만이 자신을 천국으로 보내줄 수 있다고 믿는 히요리의 유령에 사로잡힌다.",
+        "poster_path": "/qSyf4B4RUzSnyhMa2KqnDJsDdXk.jpg",
+        "genre": "코미디, 판타지, 로맨스",
+        "pos_ott": null,
+        "actors": "Tenka Hashimoto, 春風亭㐂いち, Mayu Mitsui, Mika Yano, Kazue Akita",
+        "runtime": 117,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 81,
+    "fields": {
+        "tmdb_id": 71864,
+        "title": "티모시 그린의 이상한 삶",
+        "overview": "아이를 간절히 원했던 신디와 짐 그린 부부는 의사로부터 임신 가망이 없다는 진단을 받은 후, 그들이 꿈꿔왔던 아이의 특징들을 적은 글을 정원에 묻음으로써 그 아픔을 달랜다. 기이한 폭풍이 한차례 지나간 그 날 밤, 발목에서 나뭇잎이 자라나는 신비한 아이, 티모시가 나타난다. 티모시는 신디와 짐을 엄마, 아빠라 부르고, 그들은 이내 가족처럼 지내게 되는데...",
+        "poster_path": "/24HWf4QBnEbNYDJfNFR1CmwtST5.jpg",
+        "genre": "판타지, 드라마, 코미디, 가족",
+        "pos_ott": null,
+        "actors": "제니퍼 가너, 조엘 에저튼, CJ Adams, 오데야 러쉬, Shohreh Aghdashloo",
+        "runtime": 105,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 82,
+    "fields": {
+        "tmdb_id": 53413,
+        "title": "안젤리카의 이상한 사건",
+        "overview": "늦은 밤, 사진작가 아이작은 결혼 후 며칠 만에 죽어 버린 딸 안젤리카의 마지막 사진을 찍어달라는 갑작스러운 부탁을 받는다. 안젤리카의 시신을 본 아이작은 그녀의 미모에 압도되는데, 그가 카메라 렌즈를 통해 본 그녀는 마치 살아있는 듯하다. 안젤리카와 사랑에 빠진 아이작은 밤낮으로 그녀와의 만남을 이어간다. 제작 당시 이미 100세를 넘겼던 올리베이라는 사진을 통해 예술에 대해 성찰하고, 아름다운 환영들 사이에서 삶과 죽음의 경계, 현실과 초현실의 경계를 유유히 거닌다. 초안은 1946년에, 각본은 1952년에 썼으며, 이후 현대적인 요소들을 가미했다고 한다. (2017년 영화의 전당)",
+        "poster_path": "/mTGvwYeT1ICnuAizska6J3Cjqla.jpg",
+        "genre": "드라마",
+        "pos_ott": null,
+        "actors": "Pilar López de Ayala, Leonor Silveira, Filipe Vargas, Ricardo Trêpa, Paulo Matos",
+        "runtime": 97,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 83,
+    "fields": {
+        "tmdb_id": 12155,
+        "title": "이상한 나라의 앨리스",
+        "overview": "더 이상 소녀가 아닌 19살의 앨리스가 어쩌다 본의 아니게 또다시 들어간 이상한 나라는 예전에 겪었던 그 이상한 나라가 아니다. 십여년 전 홀연히 앨리스가 사라진 후 이상한 나라는 독재자 붉은 여왕이 그녀 특유의 공포 정치로 통치하고 있었던 것. 물론 하얀 토끼와 트위들디와 트위들덤 쌍둥이, 겨울잠 쥐, 애벌레와 음흉하게 웃어대는 체셔 고양이 그리고 미친 모자장수는 붉은 여왕의 공포 정치 속에서도 정신없는 오후의 티타임을 즐기고 있다. 마치 어제 헤어진 친구를 오늘 다시 만난 듯 앨리스의 귀환을 대환영하는 미친 모자장수와 그 친구들. 손가락만큼 작아져버린 앨리스는 모자장수의 정신없는 환대와 붉은 여왕의 공포 정치를 뚫고 이번에도 무사히 집으로 돌아갈 수 있을까?",
+        "poster_path": "/9PZfYjgz6FeATs3V99FD509KWJf.jpg",
+        "genre": "가족, 판타지, 모험",
+        "pos_ott": null,
+        "actors": "미아 바시코프스카, 조니 뎁, 앤 해서웨이, 헬레나 본햄 카터, 크리스핀 글로버",
+        "runtime": 108,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 84,
+    "fields": {
+        "tmdb_id": 19079,
+        "title": "이상한 나라의 피비",
+        "overview": "투렛 증후군이라는 신경장애를 앓고 있는 아홉살 소녀 피비. 그녀와 동생은 항상 바쁜 엄마의 사랑에 목말라 한다. 새로 전학온 학교에서 피비는 마음과는 다른 행동과 말을 하게 되고, 친구들과도 멀어진다. 어느날 연극반에서 '이상한 나라의 앨리스'를 연기할 사람을 모집하자 피비도 참가하게 되는데...",
+        "poster_path": "/iiLMczPwwJE9sKjkg4Khdh3oFFn.jpg",
+        "genre": "드라마",
+        "pos_ott": null,
+        "actors": "엘르 패닝, Felicity Huffman, 패트리샤 클락슨, 빌 풀먼, 캠벨 스콧",
+        "runtime": 100,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 85,
+    "fields": {
+        "tmdb_id": 8933,
+        "title": "오슬로의 이상한 밤",
+        "overview": "\"마지막 기차를 운행한 후에 오슬로로 날아갈 거예요.\" 40년 동안 매일 같이 오슬로- 베르겐 구간의 기차를 운행해 온 기관사, 오드 호텐. 이제 그는 정년이 되어 영원할 것만 같았던 천직에서 물러나야 한다. 그런데 은퇴하기 하루 전 그는 은퇴파티에서부터 우스꽝스런 사건들을 겪에 된다. 결국 그는 마지막 기차운행 시간을 놓치고 마는데... 놓쳐버린 마지막 기차, 그리고 기이한 밤으로의 탈선... 낙심한 그의 속도 모르고 은퇴파티에서 시작된 탈선은 꼬리에 꼬리를 물면서 그를 기이한 밤의 미로로 내모는데... 과연 오드 호텐은 과거의 단순하고 틀에 박힌 삶에서 멋어나 새로운 삶의 궤도에 안착할 수 있을까?",
+        "poster_path": "/uIHdJ1jwVdh9XhzRe5Oqp6DOt4v.jpg",
+        "genre": "드라마, 코미디",
+        "pos_ott": null,
+        "actors": "Baard Owe, Espen Skjønberg, Ghita Nørby, Bjørn Floberg, Henny Moan",
+        "runtime": 90,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 86,
+    "fields": {
+        "tmdb_id": 24808,
+        "title": "이상한 실종",
+        "overview": "어느 평화로운 마을에 서커스단이 찾아오면서 마을에는 사람들이 하나 둘씩 사라지는 일이 계속 발생한다. 호기심 많은 12살 소년 윌과 짐 나이트는 축제에서 아주 놀라운 사실을 목격한 후 악마에게 쫓기게 된다. 윌과 짐은 곧 그들의 실체가 무덤에서 나와 지상을 헤매는 악령임을 알게 된다.",
+        "poster_path": "/94dMO6kAawyFUk0sCDGIjAnchED.jpg",
+        "genre": "판타지, 미스터리, 공포",
+        "pos_ott": null,
+        "actors": "Jason Robards, 조너선 프라이스, Diane Ladd, Royal Dano, Vidal Peterson",
+        "runtime": 95,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 87,
+    "fields": {
+        "tmdb_id": 30903,
+        "title": "워드 부인의 이상한 죄악",
+        "overview": "70년대 이탈리아에서 제작된 전형적인 살인 치정극의 전개가 새로운 볼거리를 준다. 원초적 본능의 모티브가 된 화면 구성과 잔인한 치정극의 전개는 여느 호러 살인 치정극의 전형적인 모델을 보여주지만 70년대의 영화가 주는 재미가 색다름을 준다. 약간의 새디즘과 연쇄 살인극 특유의 스릴이 다소 과장된 음향 효과와 더불어 극의 재미를 더해주며 쥴리 워드역의 에드윅 페네치의 미모가 시간을 넘어서서 돋보인다. 전체적으로 영화사에 보존될만한 가치를 지닌 향수가 어린 이태리 고전 특유의 향취가 물씬 풍기는 살인 치정극이다.",
+        "poster_path": "/czNd6s2ruI0KE2J1YauXVaOPbgl.jpg",
+        "genre": "미스터리, 공포, 범죄",
+        "pos_ott": null,
+        "actors": "Edwige Fenech, George Hilton, Ivan Rassimov, Conchita Airoldi, Manuel Gil",
+        "runtime": 98,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 88,
+    "fields": {
+        "tmdb_id": 32599,
+        "title": "이상한 나라의 알렉",
+        "overview": "페데리코 펠리니를 닮아가는 것을 일생의 꿈이자 목표로 여겼던 마줄시키 감독이 일명 마줄스키의 이라 불리는 작품.",
+        "poster_path": "/54KMsNKrU1gRLW1LNy7mt1UbfvU.jpg",
+        "genre": "코미디, 드라마",
+        "pos_ott": null,
+        "actors": "도널드 서덜랜드, 앨런 버스틴, Meg Mazursky, Glenna Sargent, Viola Spolin",
+        "runtime": 110,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 89,
+    "fields": {
+        "tmdb_id": 43344,
+        "title": "이상한 정열",
+        "overview": "부유한 40세의 숫총각 프란시스코(Francisco Galvan de Montemayor: 아투로 드 코르도라 분)는 성당 미사에서 한 여인의 아름다운 다리에 매혹을 느낀다. 프란시스코는 집요하게 여인을 쫓아가고 결국 그녀와 결혼한다. 하지만 의처증에 시달리는 프란시스코는 점점 강박관념과 현실을 혼동하고 급기야 로프로 그녀를 살해할 결심을 한다.",
+        "poster_path": "/qCJ4A4PxSRoBkfTlDy0BqUYYK07.jpg",
+        "genre": "드라마, 스릴러, 로맨스",
+        "pos_ott": null,
+        "actors": "Arturo de Córdova, Delia Garcés, Aurora Walker, Carlos Martínez Baena, Manuel Dondé",
+        "runtime": 92,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 90,
+    "fields": {
+        "tmdb_id": 12092,
+        "title": "이상한 나라의 앨리스",
+        "overview": "나른한 여름 오후, 언니가 읽어주는 역사 얘기를 들으며 졸고 있던 꼬마 소녀 앨리스는 하얀 토끼가 뛰어가는 걸 보고 뒤를 쫓아간다. 토끼 구멍 속으로 따라 들어가 보니 그곳은 완전히 신비한 세계다. 작은 문의 손잡이는 말을 하고, 테이블 위의 약병을 마시니까 앨리스는 병속에 들어 갈 정도로 아주 작아져서, 자기가 흘렸던 눈물의 파도를 타고 열쇠 구멍을 지나간다. 앨리스가 도착한 곳에서는 뱃사람 도도를 비롯한 한 떼의 무리가 파도치는 바닷가를 달리며 젖은 몸을 말리자는 노래를 부르고 있었다. 물 속에서 아무리 빙글빙글 돌아봤자 몸은 마르지 않는다고 얘기를 해 봐도 듣지 않는데...",
+        "poster_path": "/l6n36WrAYEwev7ClKBXK1lw8jQb.jpg",
+        "genre": "애니메이션, 가족, 판타지, 모험",
+        "pos_ott": null,
+        "actors": "Kathryn Beaumont, Ed Wynn, Richard Haydn, Sterling Holloway, Jerry Colonna",
+        "runtime": 75,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 91,
+    "fields": {
+        "tmdb_id": 133840,
+        "title": "이상한 빅토르 씨",
+        "overview": "제목의 이상한 빅토르씨는 극중 존경받는 상점 주인이다. 사랑스런 마들레인과 결혼 이후 눈에 넣어도 아프지 않을 아이까지 얻은 그에게 불행이란 없어 보인다. 그러나 빅토르에게는 비밀스러운 삶이 있다. 범죄 집단의 수장이었던 것이다. 별 탈 없이 이중생활을 이어가던 빅토르는 자신의 부하에게 비밀을 폭로당할 위기에 처한다.  (2011년 한국시네마테크협의회 - 프랑스 영화의 황금기: 1930-1960)",
+        "poster_path": "/mggZAeWU3JJDbJA81nP9hAV1Itd.jpg",
+        "genre": "범죄, 드라마",
+        "pos_ott": null,
+        "actors": "Raimu, Madeleine Renaud, Pierre Blanchar, Viviane Romance, Andrex",
+        "runtime": 100,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 92,
+    "fields": {
+        "tmdb_id": 59950,
+        "title": "이상한 드라마",
+        "overview": "엄격한 성격의 얼윈과 허영 많고 변덕스런 아내 마가렛은 베드포드주의 주교 소퍼를 저녁식사에 초대한다. 하지만 요리사가 갑자기 떠나고, 곤경에 빠진 마가렛은 직접 저녁을 준비하기로 한다. 얼윈은 탐욕스런 소퍼를 속이고자, 마가렛이 며칠간 집을 비운다고 말한다.",
+        "poster_path": "/hoWcquuOe1zXUbFNSAdNSww1mtX.jpg",
+        "genre": "코미디",
+        "pos_ott": null,
+        "actors": "Françoise Rosay, Louis Jouvet, Jean-Louis Barrault, Michel Simon, Jean-Pierre Aumont",
+        "runtime": 95,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 93,
+    "fields": {
+        "tmdb_id": 25694,
+        "title": "이상한 나라의 앨리스",
+        "overview": "지루한 겨울 오후에, 앨리스는 꿈꾸며, 그녀는 거울 뒤에있는 땅을 방문하고 있습니다. 이것은 그녀의 크기를 바꾸거나 플라밍고로 크로켓을 치는 것과 같은 이상한 일들이 일어나는 초현실적 인 악몽으로 드러납니다.\r (구글번역)",
+        "poster_path": "/k4hlsqfhEtTrEtiDE647qxTR6PI.jpg",
+        "genre": "가족, 판타지, 코미디",
+        "pos_ott": null,
+        "actors": "Charlotte Henry, Richard Arlen, Roscoe Ates, William Austin, 게리 쿠퍼",
+        "runtime": 76,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 94,
+    "fields": {
+        "tmdb_id": 19995,
+        "title": "아바타",
+        "overview": "가까운 미래, 지구는 에너지 고갈 문제를 해결하기 위해 머나먼 행성 판도라에서 대체 자원을 채굴하기 시작한다. 하지만 판도라의 독성을 지닌 대기로 인해 자원 획득에 어려움을 겪게 된 인류는 판도라의 토착민 나비의 외형에 인간의 의식을 주입, 원격 조종이 가능한 새로운 생명체를 탄생시키는 프로그램을 개발한다. 한편 하반신이 마비된 전직 해병대원 제이크 설리는 아바타 프로그램에 참가할 것을 제안받는다. 그 곳에서 자신의 아바타를 통해 자유롭게 걸을 수 있게 된 제이크는 자원 채굴을 막으려는 나비의 무리에 침투하라는 임무를 부여받는데...",
+        "poster_path": "/idvaCRXzHxiUprGBCpp7s7CSRhP.jpg",
+        "genre": "액션, 모험, 판타지, SF",
+        "pos_ott": null,
+        "actors": "샘 워싱턴, 조 샐다나, 시고니 위버, 스티븐 랭, 미셸 로드리게즈",
+        "runtime": 162,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 95,
+    "fields": {
+        "tmdb_id": 1059673,
+        "title": "아바타: 딥 다이브",
+        "overview": "아카데미상 수상자인 제임스 카메론 및 영화 출연자들과 함께 최고 기대작인 《아바타》의 후속편을 살펴보자.",
+        "poster_path": "/i367eMUXwj9LtNqrVlw1NXGRLx7.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "Chris Connelly, 제임스 카메론, 조 샐다나, 시고니 위버, 케이트 윈슬렛",
+        "runtime": 38,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 96,
+    "fields": {
+        "tmdb_id": 76600,
+        "title": "아바타: 물의 길",
+        "overview": "판도라 행성에서 제이크 설리와 네이티리가 이룬 가족이 겪게 되는 무자비한 위협과 살아남기 위해 떠나야 하는 긴 여정과 전투, 그리고 견뎌내야 할 상처에 대한 이야기를 그렸다. 살아남기 위해 설리 가족이 숲에서 바다로 터전을 옮기면서 겪게 되는 화합의 과정, 그리고 곳곳에서 도사리는 새로운 위협까지 역경 속에서 더 아름답게 펼쳐진다.",
+        "poster_path": "/z56bVX93oRG6uDeMACR7cXCnAbh.jpg",
+        "genre": "SF, 모험, 액션",
+        "pos_ott": null,
+        "actors": "샘 워싱턴, 조 샐다나, 시고니 위버, 스티븐 랭, 케이트 윈슬렛",
+        "runtime": 192,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 97,
+    "fields": {
+        "tmdb_id": 83533,
+        "title": "아바타: 불과 재",
+        "overview": "",
+        "poster_path": "/vDdFxksDMkUJjZXd00OKJfwXKre.jpg",
+        "genre": "SF, 모험, 판타지",
+        "pos_ott": null,
+        "actors": "샘 워싱턴, 조 샐다나, 시고니 위버, 스티븐 랭, 케이트 윈슬렛",
+        "runtime": 207,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 98,
+    "fields": {
+        "tmdb_id": 216527,
+        "title": "아바타 4",
+        "overview": "",
+        "poster_path": "/xGcd3ob2DWC3TmlVhnJg1RLyTGi.jpg",
+        "genre": "SF, 모험, 판타지",
+        "pos_ott": null,
+        "actors": "샘 워싱턴, 조 샐다나, 스티븐 랭, 시고니 위버, Oona Chaplin",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 99,
+    "fields": {
+        "tmdb_id": 393209,
+        "title": "아바타 5",
+        "overview": "",
+        "poster_path": "/vAvLQOyFoire5x8AmRNfvgkvrMZ.jpg",
+        "genre": "모험, SF, 판타지",
+        "pos_ott": null,
+        "actors": "샘 워싱턴, 조 샐다나, 시고니 위버, Oona Chaplin, Giovanni Ribisi",
+        "runtime": 0,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 100,
+    "fields": {
+        "tmdb_id": 671,
+        "title": "해리 포터와 마법사의 돌",
+        "overview": "해리 포터는 위압적인 버논 숙부와 냉담한 이모 페투니아, 욕심 많고 버릇없는 사촌 더즐리 밑에서 갖은 구박을 견디며 계단 밑 벽장에서 생활한다. 이모네 식구들 역시 해리와의 동거가 불편하기는 마찬가지. 이모 페투니아에겐 해리가 이상한 언니 부부에 관한 기억을 떠올리게 만드는 달갑지 않은 존재다. 11살 생일이 며칠 앞으로 다가왔지만 한번도 생일파티를 치르거나 제대로 된 생일선물을 받아 본 적이 없는 해리로서는 특별히 신날 것도 기대 할 것도 없다. 11살 생일을 며칠 앞둔 어느 날 해리에게 초록색 잉크로 쓰여진 한 통의 편지가 배달된다. 그 편지의 내용은 다름 아닌 해리의 11살 생일을 맞이하여 호그와트에서 보낸 입학 초대장이었다. 그리고 해리의 생일을 축하하러 온 거인 해그리드는 해리가 모르고 있었던 해리의 진정한 정체를 알려주는데...",
+        "poster_path": "/unEtC8uWn2lcQLnwKG9PZJX0h0c.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 리처드 해리스, 톰 펠튼",
+        "runtime": 152,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 101,
+    "fields": {
+        "tmdb_id": 672,
+        "title": "해리 포터와 비밀의 방",
+        "overview": "해리 포터에겐 이번 여름방학이 별로 즐겁질 못했다. 마법이라면 질색을 하는 페투니아 이모와 버논 이모부의 구박도 그렇지만, 무엇보다 속상한 건 단짝이었던 론 위즐리와 헤르미온느 그레인저가 그 사이 자신을 까맣게 잊었는지 자신의 편지에 답장 한 통 없다는 것.  그러던 어느날 꼬마 집요정 도비가 해리의 침실에 나타나 뜻밖의 얘기를 한다. 호그와트 마법학교로 돌아가면 무서운 일을 당할 거라는 것. 도비는 해리를 학교에 못 가게 하려고 자신이 여태까지 론과 헤르미온느의 답장을 가로채 왔음을 고백한다. 그러나 도비와 더즐리 가족의 방해에도 불구, 해리는 론과 그의 형제들이 타고 온 하늘을 나는 자동차를 타고 이모집을 탈출, 따뜻한 가족애가 넘치는 론의 집으로 가는데...",
+        "poster_path": "/sfs4U6XpiKFngbbSzrpZbkM1ySI.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 케네스 브래너, 토비 존스",
+        "runtime": 160,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 102,
+    "fields": {
+        "tmdb_id": 673,
+        "title": "해리 포터와 아즈카반의 죄수",
+        "overview": "13세가 된 해리 포터는 또 한번의 여름 방학을 이모 가족인 더즐리 일가와 우울하게 보내야 했다. 물론 마법을 쓰는 건 일체 금지. 하지만, 버논 이모부의 누이인 마지 아줌마가 더즐리 가를 방문하면서 상황은 변한다. 위압적인 마지는 해리에겐 늘 공포의 대상. 마지 아줌마 때문에 스트레스를 받던 해리는 급기야 실수로 그녀를 거대한 괴물 풍선으로 만들어 하늘 높이 띄워 보내버리고 만다. 이모와 이모부에게 벌을 받을 것도 두렵고, 일반 세상에선 마법 사용이 금지돼 있는 것을 어겼기 때문에 호그와트 마법학교와 마법부의 징계가 걱정된 해리는 밤의 어둠 속으로 도망치지만, 순식간에 근사한 보라색 3층 버스에 태워져 한 술집으로 인도되고 마는데...",
+        "poster_path": "/anwNl1xbzXoj5Ax1nVw3WoDzHlw.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 로비 콜트레인, 마이클 갬본",
+        "runtime": 136,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 103,
+    "fields": {
+        "tmdb_id": 674,
+        "title": "해리 포터와 불의 잔",
+        "overview": "요즘 들어 매일 꾸는 악몽 때문에 이마의 상처에 더욱 통증을 느끼는 해리는 친구 론과 헤르미온느와 함께 퀴디치 월드컵에 참가해 악몽에서 벗어날 수 있게 돼 마냥 기쁘다. 그러나 퀴디치 캠프장 근방 하늘에 불길한 기운이 나타난다. 바로 마왕 볼드모트의 상징인 어둠의 표식이 나타난 것. 볼드모트가 13년 전에 자취를 감춘 뒤, 감히 모습을 드러내지 못했던 그의 추종자 데스 이터들이 그 표식을 불러낸 것이다. 두려움으로 가득 찬 해리는 안전한 호그와트 마법학교로 돌아가고 싶어한다. 덤블도어 교장이라면 자신을 지켜줄 수 있을 것이기에. 그러나 올해는 예년과 상황이 좀 다른데...",
+        "poster_path": "/h6BhNwNXg0IEbs2PoWfCX9QEvgl.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 브렌던 글리슨, 마이클 갬본",
+        "runtime": 157,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 104,
+    "fields": {
+        "tmdb_id": 675,
+        "title": "해리 포터와 불사조 기사단",
+        "overview": "길고도 지루한 여름 날 호그와트 마법학교 다섯 번째 해를 기다리고 있는 해리포터. 이모부 더즐리 식구들과 참고 사는 것도 지겨운데다 친구 론과 헤르미온느에게서는 편지 한 통 오지 않는다. 그러던 중 예상치 못했던 편지 한 장이 도착한다. 그것은 해리가 학교 밖인 리틀 위닝에서 얄미운 사촌 두들리, 즉 머글 앞에서 디멘터들의 공격을 막는 마법을 사용했기 때문에 호그와트 마법학교에서 퇴학 당하게 되었다는 소식이었다. 앞이 캄캄한 해리. 갑자기 어둠의 마법사 오러들이 나타나 해리를 불사조 기사단의 비밀 장소로 데리고 가는데...",
+        "poster_path": "/1ItejykqHTbFWbZXdzqlvqriv7K.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 이멜다 스턴튼, 헬레나 본햄 카터",
+        "runtime": 137,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 105,
+    "fields": {
+        "tmdb_id": 767,
+        "title": "해리 포터와 혼혈왕자",
+        "overview": "어둠의 세력이 더욱 강력해져 머글 세계와 호그와트까지 위협해온다. 위험한 기운을 감지한 덤블도어 교수는 다가올 전투에 대비하기 위해 해리 포터와 함께 대장정의 길을 나선다. 볼드모트를 물리칠 수 있는 유일한 단서이자 그의 영혼을 나누어 놓은 7개의 호크룩스를 파괴하는 미션을 수행해야만 하는 것! 또한 덤블도어 교수는 호크룩스를 찾는 기억여행에 결정적 도움을 줄 슬러그혼 교수를 호그와트로 초청한다. 한편 학교에서는 계속된 수업과 함께 로맨스의 기운도 무르익는다. 해리는 자신도 모르게 지니에게 점점 끌리게 되고, 새로운 여자 친구가 생긴 론에게 헤르미온느는 묘한 질투심을 느끼는데...",
+        "poster_path": "/yrGlb3HLtjGp39mv4MJ5UuIHcj4.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 짐 브로드벤트, 마이클 갬본",
+        "runtime": 153,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 106,
+    "fields": {
+        "tmdb_id": 12444,
+        "title": "해리 포터와 죽음의 성물 1",
+        "overview": "덤블도어 교장의 죽음 이후, 마법부는 죽음을 먹는 자들에게 점령당하고 호그와트는 위기에 빠진다. 성년이 되며 해리를 지켜주던 수호 마법은 사라지고 해리와 론, 헤르미온느는 볼드모트 영혼의 조각이 보관된 호크룩스를 찾아 파괴하기 위한 모험을 떠난다. 그러나 이미 볼드모트에 의해 장악된 마법세계에서 죽음을 먹는 자들을 피해 숨어다니는 것만으로도 쉽지 않다. 세 사람에게 남겨진 덤블도어의 유품은 수수께끼처럼 그저 막막하고, 아무런 단서도 없이 떠난 그들의 모험은 불안과 초조함으로 가득하다. 계속되는 시련의 나날 속에 세 친구는 끊임없이 서로에 대한 믿음과 숙명에 대한 의지를 시험받는다.",
+        "poster_path": "/lOXvz8HrgOkp7AXGQp1APKeZqag.jpg",
+        "genre": "모험, 판타지",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 엠마 왓슨, 루퍼트 그린트, 토비 존스, 헬레나 본햄 카터",
+        "runtime": 146,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 107,
+    "fields": {
+        "tmdb_id": 12445,
+        "title": "해리 포터와 죽음의 성물 2",
+        "overview": "덤블도어 교장이 남긴 죽음의 성물의 단서를 쫓던 해리 포터는 볼드모트가 그토록 찾아 다닌 절대적인 힘을 가진 지팡이의 비밀을 통해 드디어 마지막 퍼즐을 완성한다. 볼드모트의 영혼이 담긴 다섯 번째 호크룩스를 찾기 위해 마법학교 호그와트로 돌아온 해리와 친구들은 그들을 잡으려는 보안마법에 걸려 위기를 맞지만 덤블도어의 동생인 에버포스의 도움으로 벗어난다. 그리고 그에게서 덤블도어와 어둠의 마법사 그린델왈드에 관한 놀라운 과거에 대해 알게 된다. 한편 볼드모트는 해리에 의해 호크룩스들이 파괴되었음을 느끼고 호그와트로 향한다. 해리를 주축으로 한 불사조 기사단과 죽음을 먹는 자들 간의 전투가 벌어지며 호그와트는 거대한 전쟁터로 변하게 되는데...",
+        "poster_path": "/ehUeFvQeo8Vr2aDIKLsLbC8okcw.jpg",
+        "genre": "판타지, 모험",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 엠마 왓슨, 루퍼트 그린트, 레이프 파인스, 앨런 릭먼",
+        "runtime": 130,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 108,
+    "fields": {
+        "tmdb_id": 899082,
+        "title": "해리 포터 20주년: 리턴 투 호그와트",
+        "overview": "‘해리포터와 마법사의 돌' 20주년 기념 스페셜. 다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨을 포함한 캐스트, 감독들이 재결합해 해리포터 프랜차이즈의 첫 영화를 회고하고, 축하하는 시간을 가진다.  '해리포터 20주년 기념: 리턴 투 호그와트'는 심층 인터뷰와 출연진 토크를 통해 역대 가장 사랑 받았던, 마법 같은 프랜차이즈의 세계로 팬들을 초대한다.  헬레나 본햄 카터, 로비 콜트레인, 랄프 파인즈, 제이슨 아이삭스, 게리 올드만, 톰 펠튼, 제임스 펠프스, 올리버 펠프스, 마크 윌리엄스, 보니 라이트, 알프레드 에녹, 매튜 루이스, 이반나 린치를 포함한 다양한 캐스트들이 함께 한다.",
+        "poster_path": "/mJYDpb6fRIzwgG0csBJp3zjNSSV.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "다니엘 래드클리프, 루퍼트 그린트, 엠마 왓슨, 보니 라이트, 매튜 루이스",
+        "runtime": 103,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 109,
+    "fields": {
+        "tmdb_id": 39100,
+        "title": "드래곤볼 Z 극장판 2: 세상에서 제일 강한 자!",
+        "overview": "50년 전, 트루마이트브리 산에서 연구를 하던 닥터 위로는 영구 빙벽에 묻히게 된다. 부하 닥터 코친은 드래곤볼에 소원을 빌어 영구 빙벽을 녹여서 닥터 위로를 부활시킨다.  그 후 뇌만 남은 닥터 위로라는 과학자가 지상 최강의 몸을 얻기 위해 암약한다는 내용이다. 닥터 위로는 오랫동안 빙하에 묻혀 있었던 관계로 처음에는 과거에 무술의 신으로 추앙받았던 무천도사의 몸을 노리지만, 무천도사는 옛날에 세계 최강 자리에서 은퇴했고 지금은 손오공이 최강이라는 말에 오공을 노리게 된다.",
+        "poster_path": "/iB8365IY4wWTvsgEJbDPoUd4Vse.jpg",
+        "genre": "액션, 애니메이션, SF",
+        "pos_ott": null,
+        "actors": "노자와 마사코, 후루카와 토시오, 타나카 마유미, 츠루 히로미, 宮内幸平",
+        "runtime": 60,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 110,
+    "fields": {
+        "tmdb_id": 39105,
+        "title": "드래곤볼 Z 극장판 9: 은하 아슬아슬!! 무지막지 굉장한 녀석!!",
+        "overview": "계왕이 죽어버린 관계로 4대 계왕들이 결계를 이뤄서 지키고 있던 은하전사 보자크 일당들이 부활하여 지구로 침략해온다. 미스터 사탄은 대부호의 후원을 받아 그 아들의 생일잔치를 겸해서 천하제일 무도회를 벤치마킹한 무술 대회를 열고 당시 셀도 사라져서 별로 할 일이 없던(...) Z전사들이 출전하게 된다.  하지만 보자크 일당들이 대회에 난입하면서 대회는 엉망이 되는데...",
+        "poster_path": "/5MajyJqAxmyyqL0aDOcv0UgtfD2.jpg",
+        "genre": "액션, 애니메이션, SF",
+        "pos_ott": null,
+        "actors": "노자와 마사코, 郷里大輔, 겐다 텟쇼, 후루카와 토시오, 타나카 마유미",
+        "runtime": 51,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 111,
+    "fields": {
+        "tmdb_id": 474521,
+        "title": "강한 개미",
+        "overview": "",
+        "poster_path": "/3PMHLMCkHfK1nhXURK07hrr7Zoh.jpg",
+        "genre": "미스터리, TV 영화",
+        "pos_ott": null,
+        "actors": "요네쿠라 료코, 高嶋政伸, 比嘉愛未, 유민, かたせ梨乃",
+        "runtime": 109,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 112,
+    "fields": {
+        "tmdb_id": 411129,
+        "title": "강한 칼: 도도견혈",
+        "overview": "동생을 위해 감옥에 들어갔던 형, 감옥에 나와 동생과 다시 재회하게 되고 형제는 가난하지만 행복한 나날을 보낸다. 하지만 형제는 음식점에서 밥을 먹고 도망치다가 잡히는데 이번에는 감옥이 아닌 전쟁터에 군인으로 끌려가게 된다. 트럭에 태워져 가던 도중 형은 동생을 도망치게 만들고 그 후 5년의 세월이 흐른다. 하지만 운명의 장난처럼 동생은 중대장이 되고 죽은 줄만 알았던 형은 적군의 대장이 되어 있었다. 예술가들의 후송을 맡은 동생과 그의 길을 막는 형은 피할 수 없는 만남을 갖게 되는데...",
+        "poster_path": "/etW9yPzqBMpeYf9xIMJIjUMV2zS.jpg",
+        "genre": "전쟁, 액션, 드라마",
+        "pos_ott": null,
+        "actors": "하윤동, 李東學, Xia Zitong, Yang Qiming, Tian Yuan",
+        "runtime": 94,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 113,
+    "fields": {
+        "tmdb_id": 372518,
+        "title": "세상보다 더 강한",
+        "overview": "불우한 어린 시절을 꿋꿋이 버텨 낸 타고난 싸움꾼 조제 아우두. 종합격투기 챔피언 자리를 쟁탈하기 위해 갖은 내적 역경을 헤쳐 나가는 그의 여정을 담은 영화.",
+        "poster_path": "/A3rXuspFEELkquYwrFOl4RJWoSK.jpg",
+        "genre": "드라마, 액션",
+        "pos_ott": null,
+        "actors": "José Loreto, Cleo, Rômulo Arantes Neto, Jackson Antunes, Claudia Ohana",
+        "runtime": 107,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 114,
+    "fields": {
+        "tmdb_id": 513177,
+        "title": "총보다 강한 노래",
+        "overview": "1991년 가을 크로아티아에서 전쟁이 벌어지자 음악가들은 전에 없이 강렬하게 대응했다. 바이올린 연주자, 탬부라 연주자부터 시작해 대중가수, 댄스가수, 로커와 펑크 가수에 이르기까지 말이다. 전쟁이 극에 달했던 첫 몇 달 만에 새로운 몇 백 곡이 탄생했고 그 중 많은 곡들이 전후까지 남아 있지 않지만, 이야기는 아직 끝나지 않았으며 알려지지 않았다.",
+        "poster_path": "/bUuqhDLjHRokyul6qhMDQlwBMWx.jpg",
+        "genre": "다큐멘터리",
+        "pos_ott": null,
+        "actors": "",
+        "runtime": 86,
+        "liked_by": []
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 115,
+    "fields": {
+        "tmdb_id": 995926,
+        "title": "베테랑 2",
+        "overview": "가족들도 못 챙기고 밤낮 없이 범죄들과 싸우는 베테랑 형사 서도철과 강력범죄수사대 형사들. 어느 날, 한 교수의 죽음이 이전에 발생했던 살인 사건들과 연관성이 있는 것으로 밝혀지며 전국은 연쇄살인범으로 인해 떠들썩해진다. 이에 단서를 추적하며 수사를 시작한 형사들. 하지만 이들을 비웃기라도 하듯, 연쇄살인범은 다음 살인 대상을 지목하는 예고편을 인터넷에 공개하며 또 한 번 전 국민을 흔들어 놓는다. 강력범죄수사대는 서도철의 눈에 든 정의감 넘치는 막내 형사 박선우를 투입한다. 그리고 사건은 새로운 방향으로 흐르게 되는데...",
+        "poster_path": "/akqfhtM1Wa1klFi7ijmyNm7Sm1j.jpg",
+        "genre": "액션, 범죄",
+        "pos_ott": null,
+        "actors": "황정민, 정해인, 오달수, 오대환, 장윤주",
+        "runtime": 118,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 116,
+    "fields": {
+        "tmdb_id": 313369,
+        "title": "라라랜드",
+        "overview": "차들로 빽빽이 들어찬 LA의 고속도로. 거북이 걸음이던 도로가 뚫리기 시작하지만 미아 지금 손에 든 연기 오디션 대본을 놓지 못한다. 세바스찬은 경적을 누르며 미아를 노려보고는 사라진다. 악연의 시작. 이후 미아는 감미로운 피아노 선율에 이끌려 재즈바로 향하는데, 연주자가 바로 세바스찬이다. 미아가 세바스찬에게 인사를 건네려고 다가가던 순간은 하필 그가 재즈바의 레퍼토리를 무시하고 연주한 탓에 해고된 직후. 세바스찬은 인사를 건네려 다가온 미아를 쌩하니 스쳐 지나가버린다. 세 번째로 두 사람은 파티에 온 손님과 출장 밴드의 키보드 연주자로 다시 만나는데...",
+        "poster_path": "/ad9ndytwOckyShSc0A6tx1rZRkW.jpg",
+        "genre": "코미디, 드라마, 로맨스, 음악",
+        "pos_ott": null,
+        "actors": "라이언 고슬링, 엠마 스톤, 존 레전드, 로즈메리 디윗, J.K. 시몬스",
+        "runtime": 127,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 117,
+    "fields": {
+        "tmdb_id": 346646,
+        "title": "베테랑",
+        "overview": "한 번 꽂힌 것은 무조건 끝을 보는 행동파 서도철은 겁 없고, 못 잡는 것 없고, 봐주는 것 없는 특수 강력사건 담당 광역수사대. 오랫동안 쫓던 대형 범죄를 해결한 후 숨을 돌리려는 찰나, 서도철은 재벌 3세 조태오를 만나게 된다. 세상 무서울 것 없는 안하무인의 조태오와 언제나 그의 곁을 지키는 오른팔 최상무. 서도철은 의문의 사건을 쫓던 중 그들이 사건의 배후에 있음을 직감한다. 건들면 다친다는 충고에도 불구하고 포기하지 않는 서도철의 집념에 판은 걷잡을 수 없이 커져가고, 조태오는 이를 비웃기라도 하듯 유유히 포위망을 빠져 나가는데...",
+        "poster_path": "/idCfJB8mTZfy49Yb6lX3FfEzvV7.jpg",
+        "genre": "액션, 범죄",
+        "pos_ott": null,
+        "actors": "황정민, 유아인, 유해진, 오달수, 장윤주",
+        "runtime": 123,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 118,
+    "fields": {
+        "tmdb_id": 1017163,
+        "title": "범죄도시 4",
+        "overview": "신종 마약 사건 3년 뒤, 괴물형사 마석도와 서울 광수대는 배달앱을 이용한 마약 판매 사건을 수사하던 중 수배 중인 앱 개발자가 필리핀에서 사망한 사건이 대규모 온라인 불법 도박 조직과 연관되어 있음을 알아낸다. 필리핀에 거점을 두고 납치, 감금, 폭행, 살인 등으로 대한민국 온라인 불법 도박 시장을 장악한 특수부대 용병 출신의 빌런 백창기와 한국에서 더 큰 판을 짜고 있는 IT업계 천재 CEO 장동철. 마석도는 더 커진 판을 잡기 위해 장이수에게 뜻밖의 협력을 제안하고 광역수사대는 물론, 사이버수사대까지 합류해 범죄를 소탕하기 시작하는데…",
+        "poster_path": "/h1YarEjeYurkAwXgfY1RDMVCiin.jpg",
+        "genre": "액션, 범죄, 드라마, 스릴러, 코미디",
+        "pos_ott": null,
+        "actors": "마동석, 김무열, 박지환, 이동휘, 이주빈",
+        "runtime": 109,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 119,
+    "fields": {
+        "tmdb_id": 338729,
+        "title": "뷰티 인사이드",
+        "overview": "자고 일어나면 다른 사람이 되는 남자가 있다. 매일 국적, 성별, 나이를 넘나드는 남자, 우진은 정체를 드러내지 않고 가구 디자이너로서 살아왔다. 그러던 어느 날, 가구 판매점에서 이수라는 여자를 만난 우진은 처음 사랑이라는 감정을 느낀다. 항상 다른 모습으로 그녀를 지켜보던 우진은 이수에게 데이트 신청을 한다. 설레는 첫 데이트 이후 그는 잠을 자지 않고 모습을 유지하기 위해 노력한다. 우진은 며칠간 보통 사람 같은 행복한 시간을 보내지만, 결국 잠이 들어 다른 모습으로 변해버리고 만다. 그녀 곁을 맴돌던 우진은 용기를 내어 비밀을 밝히는데...",
+        "poster_path": "/am6EX9djPcPeQMMBwn2mUfckeDF.jpg",
+        "genre": "판타지, 로맨스",
+        "pos_ott": null,
+        "actors": "한효주, 김대명, 도지한, 배성우, 박신혜",
+        "runtime": 127,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 120,
+    "fields": {
+        "tmdb_id": 398818,
+        "title": "콜 미 바이 유어 네임",
+        "overview": "17살 소년 엘리오의 가족은 매년 여름 손님을 받는다. 엘리오의 아버지 펄먼 교수의 일을 돕는 보조 연구원은 6주 동안 이곳에 머물며 사람들과 어울리고 자유로운 식사, 일광욕과 수영을 즐긴다. 올해 집을 찾은 24살 올리버는 모든 사람이 호감을 갖는 사람이다. 하지만 엘리오의 감정은 좀더 특별하다. 처음 보는 순간부터 그를 의식했고, 그 실체가 동성에게 품은 사랑임을 깨달은 후에는 적대감을 갖고 있는 것처럼 군다. 하지만 엘리오가 자신의 진짜 속내를 내비친 후 두 사람은 서로의 마음이 같다는 것을 알게 된다.",
+        "poster_path": "/guzNdgRjANTBDkTRYGqgzFOgSWx.jpg",
+        "genre": "로맨스, 드라마",
+        "pos_ott": null,
+        "actors": "아미 해머, 티모시 샬라메, 마이클 스툴바그, 아미라 카사르, 에스테르 가렐",
+        "runtime": 132,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 121,
+    "fields": {
+        "tmdb_id": 771,
+        "title": "나 홀로 집에",
+        "overview": "크리스마스 시즌의 시카고. 말썽꾸러기 케빈은 자기의 치즈 피자를 먹은 형과 싸워 소동을 일으키자 엄마는 케빈을 3층 다락방으로 올려보낸다. 케빈의 가족들과 케빈의 집에 온 손님들은 다음 날에 크리스마스 연휴를 이용해 프랑스의 친척 집으로 떠날 계획이었다. 그날 밤, 바람이 세차게 불어 전화선과 전기선이 끊긴다. 케빈의 가족들은 늦잠을 자게 되어 비행기 시간을 맞추기 위해 허둥대다가 그만 3층 다락방에서 잠이 든 케빈을 두고 떠난다. 잠에서 깬 케빈은 혼자 남은 것을 알고 하느님이 자신의 소원을 들어주었다고 기뻐한다. 비행기를 타고 가던 케빈의 어머니는 무엇인가 빠뜨린 기분에 고민하다가 케빈을 두고 왔음에 놀란다. 하지만 전화선이 불통이라, 어쩔 수 없다가 프랑스에 도착한 식구들은 목적지로 가고 엄마는 케빈이 걱정이 되어 집으로 돌아갈 비행기표를 사기 위해 안간힘을 쓰지만 연말연휴라 좌석이 없었다. 혼자 집에 남은 케빈은 형과 누나 방을 구경하면서 즐거워한다. 그리고 노래를 부르고 트리도 만들면서 자축한다. 그런데 빈집털이 2인조 도둑이 케빈의 집을 호시탐탐 노리고 있다는 것을 알게 되는데...",
+        "poster_path": "/oOrGMMvpe51VmlC5nwEOt211kjy.jpg",
+        "genre": "코미디, 가족",
+        "pos_ott": null,
+        "actors": "맥컬리 컬킨, 조 페시, 다니엘 스턴, 캐서린 오하라, John Heard",
+        "runtime": 105,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 122,
+    "fields": {
+        "tmdb_id": 72443,
+        "title": "조제, 호랑이 그리고 물고기들",
+        "overview": "주변에 여자들이 많고, 스스로도 여자들과의 자유로운 관계를 즐기는 쾌활한 대학생 츠네오는 심야 아르바이트를 하던 중 손님들로부터 할머니가 끌고 다니는 수상한 유모차에 대해 듣게 된다. 어느 날, 소문으로만 듣던 그 유모차와 우연히 마주치게 되고 조제라는 이름의 한 여자를 알게 된다. 강렬했던 첫 만남 이후, 사랑하는 사람과 함께 호랑이, 물고기, 그리고 바다를 보고 싶었다던 조제. 그런 그녀의 순수함에 끌린 츠네오의 마음에는 특별한 감정이 피어난다. 서로의 마음을 확인하고 뜨거운 감정을 나누는 날들도 잠시, 츠네오와 조제는 이 사랑의 끝을 예감하게 되는데...",
+        "poster_path": "/cGP1NkjgYdCX0hoclBMeBbPeQUz.jpg",
+        "genre": "드라마, 로맨스",
+        "pos_ott": null,
+        "actors": "츠마부키 사토시, 이케와키 치즈루, 우에노 주리, 에구치 노리코, 新井浩文",
+        "runtime": 116,
+        "liked_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 1,
+    "fields": {
+        "movie_id": 3,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/1022789/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 2,
+    "fields": {
+        "movie_id": 4,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/1307917/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 3,
+    "fields": {
+        "movie_id": 8,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/1153222/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 4,
+    "fields": {
+        "movie_id": 13,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/877188/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 5,
+    "fields": {
+        "movie_id": 22,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/140823/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 6,
+    "fields": {
+        "movie_id": 57,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/1359227/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 7,
+    "fields": {
+        "movie_id": 61,
+        "ott_name": "Watcha",
+        "ott_link": "https://www.themoviedb.org/movie/746333/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 8,
+    "fields": {
+        "movie_id": 62,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/641501/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 9,
+    "fields": {
+        "movie_id": 62,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/641501/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 10,
+    "fields": {
+        "movie_id": 71,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/11918/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 11,
+    "fields": {
+        "movie_id": 71,
+        "ott_name": "Watcha",
+        "ott_link": "https://www.themoviedb.org/movie/11918/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 12,
+    "fields": {
+        "movie_id": 76,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/1028864/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 13,
+    "fields": {
+        "movie_id": 76,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/1028864/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 14,
+    "fields": {
+        "movie_id": 78,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/511785/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 15,
+    "fields": {
+        "movie_id": 78,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/511785/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 16,
+    "fields": {
+        "movie_id": 79,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/283366/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 17,
+    "fields": {
+        "movie_id": 79,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/283366/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 18,
+    "fields": {
+        "movie_id": 79,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/283366/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 19,
+    "fields": {
+        "movie_id": 81,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/71864/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 20,
+    "fields": {
+        "movie_id": 83,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/12155/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 21,
+    "fields": {
+        "movie_id": 90,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/12092/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 22,
+    "fields": {
+        "movie_id": 94,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/19995/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 23,
+    "fields": {
+        "movie_id": 95,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/1059673/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 24,
+    "fields": {
+        "movie_id": 96,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/76600/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 25,
+    "fields": {
+        "movie_id": 100,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/671/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 26,
+    "fields": {
+        "movie_id": 101,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/672/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 27,
+    "fields": {
+        "movie_id": 102,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/673/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 28,
+    "fields": {
+        "movie_id": 103,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/674/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 29,
+    "fields": {
+        "movie_id": 104,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/675/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 30,
+    "fields": {
+        "movie_id": 105,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/767/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 31,
+    "fields": {
+        "movie_id": 106,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/12444/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 32,
+    "fields": {
+        "movie_id": 107,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/12445/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 33,
+    "fields": {
+        "movie_id": 112,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/411129/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 34,
+    "fields": {
+        "movie_id": 114,
+        "ott_name": "GuideDoc",
+        "ott_link": "https://www.themoviedb.org/movie/513177/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 35,
+    "fields": {
+        "movie_id": 116,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/313369/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 36,
+    "fields": {
+        "movie_id": 116,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/313369/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 37,
+    "fields": {
+        "movie_id": 116,
+        "ott_name": "Watcha",
+        "ott_link": "https://www.themoviedb.org/movie/313369/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 38,
+    "fields": {
+        "movie_id": 116,
+        "ott_name": "FilmBox+",
+        "ott_link": "https://www.themoviedb.org/movie/313369/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 39,
+    "fields": {
+        "movie_id": 116,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/313369/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 40,
+    "fields": {
+        "movie_id": 117,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/346646/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 41,
+    "fields": {
+        "movie_id": 117,
+        "ott_name": "Watcha",
+        "ott_link": "https://www.themoviedb.org/movie/346646/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 42,
+    "fields": {
+        "movie_id": 117,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/346646/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 43,
+    "fields": {
+        "movie_id": 118,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/1017163/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 44,
+    "fields": {
+        "movie_id": 119,
+        "ott_name": "Watcha",
+        "ott_link": "https://www.themoviedb.org/movie/338729/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 45,
+    "fields": {
+        "movie_id": 120,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/398818/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 46,
+    "fields": {
+        "movie_id": 120,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/398818/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 47,
+    "fields": {
+        "movie_id": 120,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/398818/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 48,
+    "fields": {
+        "movie_id": 121,
+        "ott_name": "Disney Plus",
+        "ott_link": "https://www.themoviedb.org/movie/771/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 49,
+    "fields": {
+        "movie_id": 122,
+        "ott_name": "Netflix",
+        "ott_link": "https://www.themoviedb.org/movie/72443/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 50,
+    "fields": {
+        "movie_id": 122,
+        "ott_name": "wavve",
+        "ott_link": "https://www.themoviedb.org/movie/72443/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 51,
+    "fields": {
+        "movie_id": 122,
+        "ott_name": "Watcha",
+        "ott_link": "https://www.themoviedb.org/movie/72443/watch"
+    }
+},
+{
+    "model": "movies.movieott",
+    "pk": 52,
+    "fields": {
+        "movie_id": 122,
+        "ott_name": "Netflix basic with Ads",
+        "ott_link": "https://www.themoviedb.org/movie/72443/watch"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "movie": 3,
+        "content": "사춘기 경보가 울린 이후로 제대로 된게 하나도 없어!!!!",
+        "invite_venue": "라일리네",
+        "invite_date": "2024-11-28T07:00:00Z",
+        "inviter": "불안이",
+        "invitee": "기쁨이",
+        "ticket_image": "tickets/ticket.png",
+        "created_at": "2024-11-26T06:55:53.038Z",
+        "updated_at": "2024-11-26T06:55:53.038Z"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 2,
+    "fields": {
+        "user": 3,
+        "movie": 79,
+        "content": "미래 얘기는 금지야.....",
+        "invite_venue": "이상한 아이들의 집",
+        "invite_date": "2024-11-27T22:00:00Z",
+        "inviter": "미스 페레그린",
+        "invitee": "이상한 아이들",
+        "ticket_image": "tickets/ticket_vJ4umxV.png",
+        "created_at": "2024-11-26T07:00:46.501Z",
+        "updated_at": "2024-11-26T07:00:46.501Z"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "movie": 109,
+        "content": "에-네르-기파!",
+        "invite_venue": "파오즈 산",
+        "invite_date": "2024-12-01T03:20:00Z",
+        "inviter": "손오공",
+        "invitee": "부르마",
+        "ticket_image": "tickets/ticket_5a7SjW0.png",
+        "created_at": "2024-11-26T07:02:52.953Z",
+        "updated_at": "2024-11-26T07:02:52.953Z"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 4,
+    "fields": {
+        "user": 3,
+        "movie": 1,
+        "content": "공주님도 나가서 버섯 따 오세요!!",
+        "invite_venue": "난쟁이 집",
+        "invite_date": "2024-12-07T06:11:00Z",
+        "inviter": "백설공주",
+        "invitee": "3번째 난쟁이",
+        "ticket_image": "tickets/ticket_A1ujiCg.png",
+        "created_at": "2024-11-26T07:04:23.935Z",
+        "updated_at": "2024-11-26T07:04:23.935Z"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 5,
+    "fields": {
+        "user": 3,
+        "movie": 115,
+        "content": "남희야 여긴 유아인 안 나오는데 같이 볼래?",
+        "invite_venue": "강력 범죄 수사대",
+        "invite_date": "2024-12-06T06:58:00Z",
+        "inviter": "남희",
+        "invitee": "정해인",
+        "ticket_image": "tickets/ticket_8mgh60Q.png",
+        "created_at": "2024-11-26T07:08:00.300Z",
+        "updated_at": "2024-11-26T07:08:00.300Z"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 6,
+    "fields": {
+        "user": 3,
+        "movie": 116,
+        "content": "I will always love you too",
+        "invite_venue": "천문대 가는 트램",
+        "invite_date": "2025-02-27T03:00:00Z",
+        "inviter": "Mia",
+        "invitee": "Sevastian",
+        "ticket_image": "tickets/ticket_7y1RBnJ.png",
+        "created_at": "2024-11-26T07:09:27.508Z",
+        "updated_at": "2024-11-26T07:09:27.508Z"
+    }
+},
+{
+    "model": "tickets.ticket",
+    "pk": 7,
+    "fields": {
+        "user": 3,
+        "movie": 121,
+        "content": "Merry Chirstmas!",
+        "invite_venue": "HOME",
+        "invite_date": "2024-12-26T00:05:00Z",
+        "inviter": "thieves",
+        "invitee": "kevin",
+        "ticket_image": "tickets/ticket_f1AzS6m.png",
+        "created_at": "2024-11-26T07:13:46.141Z",
+        "updated_at": "2024-11-26T07:13:46.141Z"
+    }
+}
+]
